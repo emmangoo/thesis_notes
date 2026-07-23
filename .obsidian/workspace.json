@@ -35,20 +35,25 @@
               "title": "Project Doc"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4219d015337ca380",
         "type": "tabs",
         "children": [
           {
-            "id": "33fbbbf50ecde2ca",
+            "id": "48871ed47525753d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/Motivation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Motivation"
             }
           }
         ]
@@ -214,17 +219,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "33fbbbf50ecde2ca",
+  "active": "48871ed47525753d",
   "lastOpenFiles": [
+    "Project Doc.md",
+    "Thesis/Motivation.md",
+    "Pasted image 20260723131429.png",
+    "Papers/FRASER.md",
+    "Papers/OUTRIDER.md",
+    "Outline.md",
+    "Papers/Comprehensive Analysis of Alternative Splicing Across Tumors from 8,705 Patients.md",
+    "Thesis",
     "Papers/Realizing the promise of cancer predisposition genes.md",
     "Papers/PROTRIDER.md",
     "Papers/Predicting expression-altering promoter mutations with deep learning.md",
-    "Papers/FRASER.md",
     "Papers/Comprehensive genomic and epigenomic analysis in cancer of unknown primary guides molecularly-informed therapies despite heterogeneity.md",
     "Papers/Analysis of 3760 hematologic malignancies reveals rare transcriptomic aberrations of driver genes.md",
-    "Papers/OUTRIDER.md",
-    "Papers",
-    "Outline.md",
-    "Project Doc.md"
+    "Papers"
   ]
 }
