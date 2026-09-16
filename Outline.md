@@ -97,7 +97,7 @@ Statistical framework => is this good/ necessary/ unnecessary?
 - Cohen's d: filtered top FDR significant genes by cohen's d >= 0.5 to include only genes with meaningful effect size
 - Zero-inflated Poisson: used for sparse data, but Hessian-inversion warnings + ~1/3 of genes not converging led to this being a bad method/ not useful in the end, but maybe good to mention as method nonetheless? 
 - Two-part hurdle model: consists of logistic regression (binary, asking if there is an outlier at all) and truncated Poisson (magnitude of outlier given that it is present) components => this is better than ZIP for this case 
-- Negative binomial GLM: diagnosis, background CNV burden included as covariates, HC3 robust errors used  
+- Negative binomial GLM: diagnosis, background CNV burden included as covariates, HC3 robust errors used
 - Pathway-agnostic analysis: 2267 reactome-annotated pathways, built a per-pathway carrier vs burden GLM
 	- gene set size filter 5-200 genes
 	- carrier-frequency filter min 5 max 15%
@@ -143,6 +143,10 @@ RNA pol II
 
 ## Discussion
 
+from ata: 
+> First subsection, you summarise  and give overview of results, and the implications to the filed and us.  
+> in the second subsection, you talk about limitations of current work, and the outlook.
+
 Chromosome awareness and burden-based CNV analysis
 - top genes include annotated oncogenes 
 - top 5 genes all on chromosome 12 => coamplification via chromothripsis/ local structural rearrangements inflates testing results which is why it makes sense that we have these genes clustered together especially with the naive test
@@ -170,17 +174,14 @@ Pathway analysis/ CDK4 result
 - connect to CDK4/6 literature
 - interpret the other pathway results
 
----
-
-## Conclusion 
+Conclusion
 
 - summarise the hypotheses introduced at the beginning & the discussion for each 
 - mention limitations 
 - overarching message: cis effects are insufficient as sole explanations for genomic aberrations in cancer, biologically sound & interpretable trans-acting variants are worth integrating into pipelines
 
----
 
-## Outlook
+Outlook
 
 - mirrored from presentation: functional validation, cancer lineage specific tests, replication on TCGA cohort
 

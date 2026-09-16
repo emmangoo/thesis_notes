@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1e52a9ace24786c3",
+        "id": "e16a6cdfa1552cc9",
         "type": "tabs",
         "children": [
           {
@@ -20,7 +20,13 @@
               "icon": "lucide-file",
               "title": "Outline"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1e52a9ace24786c3",
+        "type": "tabs",
+        "children": [
           {
             "id": "b8593359941cd1c7",
             "type": "leaf",
@@ -237,11 +243,51 @@
       "bases:Create new base": false
     }
   },
-  "active": "d174b26182618e03",
+  "floating": {
+    "id": "aba0a12a961d213c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8383c29e4b30d043",
+        "type": "window",
+        "children": [
+          {
+            "id": "e0d78ee6aa747dbf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d8891944bfce0d88",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Outline.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Outline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "d8891944bfce0d88",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Outline.md",
     "Thesis/Motivation.md",
     "Papers/Predicting expression-altering promoter mutations with deep learning.md",
-    "Outline.md",
     "Papers/OUTRIDER.md",
     "outline_old.md",
     "Papers/Abstract 4357 Comparing amplification of 12q13-q14 and 12q15 chromosomal regions across cancer types through genomic and transcriptome analysis.md",
@@ -267,7 +313,6 @@
     "Untitled.base",
     "Project Doc.md",
     "Untitled.canvas",
-    "Comprehensive Genomic and Transcriptomic Analysis for Guiding Therapeutic Decisions in Patients with Rare Cancer.md",
     "figures/Pasted image 20260817114749.png",
     "figures/Pasted image 20260817114141.png",
     "figures/Pasted image 20260817110155.png",
